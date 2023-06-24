@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Person unit tests">
+    <parameter name="firstName" value="Jane"/>
+    <parameter name="lastName" value="Doe"/>
+    <parameter name="age" value= "60"/>
+    <parameter name="email" value= "jane@mail.com"/>
+    <parameter name="salary" value= "700"/>
+    <parameter name="department" value= "department"/>
+    <test name="All run tests">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>
